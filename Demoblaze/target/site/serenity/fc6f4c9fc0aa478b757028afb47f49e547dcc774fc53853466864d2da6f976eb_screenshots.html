@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1c2b5c2cb5287d010d7e4e9750244a1c0b7ada7c4ab178156008bc3270c6d30c.html">Pagina Demo</a></span>
+                > <span class="truncate-60"><a
+                    href="fc6f4c9fc0aa478b757028afb47f49e547dcc774fc53853466864d2da6f976eb.html">Realizar un flujo completo de compra de productos </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-03-2023 11:23</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pagina Demo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0b9a55ecf7196c32ce3d9f24d969ffba372c0fcb4bd22977302e4420d68117f5.html">Demoblaze
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="29eab6b1e8673209351681b5f37b39f37f8c277c58ed84aa02de11142f98c97e.html">Flujo Completo De Compra
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar un flujo completo de compra de productos
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="53be0ddbfab083b21dea6f521db6e71026fb3195663aab70c9b1d27b6cd4752d.png" title=" Dado que el usuario se loguea en la pagina demoblaze" width="1366"/>
+                <img src="53be0ddbfab083b21dea6f521db6e71026fb3195663aab70c9b1d27b6cd4752d.png" title=" Alvaro opens the Page demoblaze" width="1366"/>
+                <img src="ea7c899a5fb56c46bda5734f00080473ea1f64fab8677fc34458d9eb964fefdc.png" title=" Alvaro iniciar sesion" width="1366"/>
+                <img src="ea7c899a5fb56c46bda5734f00080473ea1f64fab8677fc34458d9eb964fefdc.png" title=" Alvaro clicks on Dar click al boton login" width="1366"/>
+                <img src="3f2758423a0522f8e59b3baced6098d41d56c193b41b06963f463ba94b64a6b3.png" title=" Alvaro enters 'acamano' into colocar el usuario" width="1366"/>
+                <img src="f0163dba265105130e8cc75f242bcb95a3fb58dee88d90a20a795b93bbbd5665.png" title=" Alvaro enters '12345' into colocar la contrase&ntilde;a" width="1366"/>
+                <img src="e4f266d7220474fe06e3cb2827d0b64bb626da5f6ce32dfdb74908e9f2d8a3e5.png" title=" Alvaro clicks on presionar el boton login" width="1366"/>
+                <img src="e4f266d7220474fe06e3cb2827d0b64bb626da5f6ce32dfdb74908e9f2d8a3e5.png" title=" Alvaro iniciar sesion (completed)" width="1366"/>
+                <img src="e4f266d7220474fe06e3cb2827d0b64bb626da5f6ce32dfdb74908e9f2d8a3e5.png" title=" Dado que el usuario se loguea en la pagina demoblaze (completed)" width="1366"/>
+                <img src="40890d8020d92f7f9ee3b000fc84f5a053cd2feead3d195d840ad3824cbe706a.png" title=" Cuando agrega productos al carrito" width="1366"/>
+                <img src="40890d8020d92f7f9ee3b000fc84f5a053cd2feead3d195d840ad3824cbe706a.png" title=" Alvaro comprar productos" width="1366"/>
+                <img src="40890d8020d92f7f9ee3b000fc84f5a053cd2feead3d195d840ad3824cbe706a.png" title=" Alvaro clicks on seleccionar celular" width="1366"/>
+                <img src="3b3e33bebbfa58bb1bb9a111b14aaba2545f76416ce00d5506d4569f95457ffc.png" title=" Alvaro clicks on presionar boton add to cart" width="1366"/>
+                <img src="bcc4517147cd636f4c7920485a0e6f5acd666439955bec0070f41fb74c9185b9.png" title=" Alvaro clicks on regresar a la pagina principal" width="1366"/>
+                <img src="40890d8020d92f7f9ee3b000fc84f5a053cd2feead3d195d840ad3824cbe706a.png" title=" Alvaro clicks on seleccionar laptop" width="1366"/>
+                <img src="c6fb020fc24be02ecfd4a076f510e20120f25c03629fa307386a3175acb1646c.png" title=" Alvaro clicks on presionar boton add to cart laptop" width="1366"/>
+                <img src="bcc4517147cd636f4c7920485a0e6f5acd666439955bec0070f41fb74c9185b9.png" title=" Alvaro clicks on regresar a la pagina principal" width="1366"/>
+                <img src="2bd5b266b657f1d72a729c996cb1a1fc1800b04d488d5222ca687c61e9060e91.png" title=" Alvaro clicks on presionar boton cart" width="1366"/>
+                <img src="ee50facfc0850993c107cdf7bafbaa3ce717d9c0e40ceeeb53ad420d6d2b58c5.png" title=" Alvaro clicks on presionar boton place order" width="1366"/>
+                <img src="6fac9e49d421c51d8c3b92d6ea09c4668a393caabd7d680b3cbe6c1546c9d009.png" title=" Alvaro enters 'Alvaro' into ingresar nombre" width="1366"/>
+                <img src="79b309f060bdbb5fd55ee04b5da7d4a18563495236545a5fa9e46f17c16971d9.png" title=" Alvaro enters 'Panam&aacute;' into ingresar pais" width="1366"/>
+                <img src="89bbb909764b5c5c7beec721215293c0e7d553e86ec3877eb3cfaf7e7379a6b5.png" title=" Alvaro enters 'Panam&aacute;' into ingresar ciudad" width="1366"/>
+                <img src="3cad819ff5806fd4510736fc6f9123696071e06bff7fa586d66104222bb6c5a5.png" title=" Alvaro enters '8515266' into ingresar tarjeta de credito" width="1366"/>
+                <img src="5187a5b4af67f561ea0e4b38cb9ccc4cf7f9079181ae6ec23a760fe8d827bb8a.png" title=" Alvaro clicks on ingresar tarjeta de credito" width="1366"/>
+                <img src="5187a5b4af67f561ea0e4b38cb9ccc4cf7f9079181ae6ec23a760fe8d827bb8a.png" title=" Alvaro comprar productos (completed)" width="1366"/>
+                <img src="5187a5b4af67f561ea0e4b38cb9ccc4cf7f9079181ae6ec23a760fe8d827bb8a.png" title=" Cuando agrega productos al carrito (completed)" width="1366"/>
+                <img src="25eaa8ff58527921c6804edfa543917c43f83ee4db97d1fe47e57cd7f1578783.png" title=" Entonces realiza la compra de los productos Thank you for your purchase!" width="1366"/>
+                <img src="25eaa8ff58527921c6804edfa543917c43f83ee4db97d1fe47e57cd7f1578783.png" title=" Then compra exitosa" width="1366"/>
+                <img src="25eaa8ff58527921c6804edfa543917c43f83ee4db97d1fe47e57cd7f1578783.png" title=" Entonces realiza la compra de los productos Thank you for your purchase! (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
